@@ -40,7 +40,7 @@ const render = () => {
             e.stopPropagation()
             console.log(hashMap);
             hashMap.splice(index, 1)
-            // 删除后需要重新渲染
+            // 删除后需重新渲染
             render()
             console.log(hashMap);
         })
